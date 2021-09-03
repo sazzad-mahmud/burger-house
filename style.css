@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .font__alfa {
     color: #3D2514;
     text-shadow: 2px 2px white;
@@ -40,7 +41,7 @@
     margin-right: 0.5rem;
 }
 
-.nav-link {
+.nav-item a {
     color: #3D2514;
     font-size: 1.313rem;
     font-family: 'Bebas Neue', cursive;
@@ -50,7 +51,7 @@
 .content-left p {
     border: 2px dashed black;
     padding-left: 1rem;
-    width: 75%
+    width: 65%;
 }
 
 .card__item {}
@@ -88,6 +89,119 @@ h4 {
     color: black;
 }
 
+.reservation__card__heading{
+   
+    position: relative;
+    box-sizing: border-box;
+    
+}
+.reservation__form{
+    position: relative;
+    z-index: 1;
+  } 
+
+.img__burger{
+    position: absolute;
+    top: 0;
+    left: -2rem;
+    width:250px;
+    height: 250px;
+   
+
+}
+.img__bottle{
+    position: absolute;
+    width:100px;
+    height: 200px;
+    left: 9rem;
+    bottom: 2rem;
+    
+
+}
+.img__setMenu{
+    position: absolute;
+
+    bottom: -5rem;
+    right: -7rem;
+    width:300px;
+    height: 300px;
+
+    
+}
+.about__and__contact{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("./image/contactus-img.jpg");
+    background-position: center;
+    background-size: cover;
+    height:500px;
+    position: relative;
+    z-index: -1;
+
+}
+
+
+
+.footer{
+    position: absolute;
+    bottom:0;
+}
+.footer__icon{
+    position: absolute;
+    bottom:1rem;
+    right:2rem;
+}
+.footer__icon a{
+    background-color: white;
+    color: #3D2514;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height:30px;
+    margin: 0 5px;
+    
+}
+@media(max-width:576px){
+    .footer__icon{
+        position: absolute;
+        bottom:1rem;
+        right:1rem;
+    }
+    .footer__icon a{
+        background-color: white;
+        color: #3D2514;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        display: block;
+        text-align: center;
+        line-height:25px;
+        margin: 10px 0px;
+        
+    }
+    .navbar-brand img{
+        width:200px;
+    }
+}
+@media(max-width: 450px){
+    .navbar-brand img{
+        width:150px;
+    }
+}
+@media(max-width: 992px){
+    .delivery-express {
+        position: absolute;
+        right: 4.2rem;
+        top: 6rem;
+        
+    }
+  
+    .content-left p {
+       font-size: 1rem;
+       width: 100%;
+    }
+}
 
 /* nav-contact {
     position: relative;
